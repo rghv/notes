@@ -3,6 +3,12 @@ Books for programmers
 Just a bunch of books listed from [this famous thread on  StackOverflow](http://stackoverflow.com/a/1713/2882393),
 categorized for convenience.
 
+TODO
+----
+* Provide hyperlinks
+* Fetch and mantion ISBNs
+* Generate and add cover image
+
 Algorithms
 ----------
 * The Art of Computer Programming by Donald Knuth
