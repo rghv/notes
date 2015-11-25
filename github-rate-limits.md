@@ -12,7 +12,8 @@ GitHub implements a very easy to understand and easy to use rate limiting system
     * `X-RateLimit-Remaining` - how many requests can one fire till the limit reset time
 * GitHub limits all authenticated requests from an authenticated user (typically to 5000 requests per hour)
 
-Example. An unauthenticated request to GitHub API end point gives the response header as shown below.
+Example. An unauthenticated request to GitHub API end point gives the response header as shown below. In the below given example, I am trying to reach
+`https://api.github.com/users/rghv/repos`, which is the end-point for getting list of the repositories of a user named `rghv`.
 
 ```
 vinay@vinay-lpt-lnx ~ $ date
