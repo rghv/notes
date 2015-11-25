@@ -48,7 +48,7 @@ vinay@vinay-lpt-lnx ~ $ date --date="@1448368114"
 Tue Nov 24 17:58:34 IST 2015
 vinay@vinay-lpt-lnx ~ $
 ```
-
+The results shown above is what is called 'response headers'. The response headers contain very valuable information.
 Notice the `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset` values. The request was fired on Nov 24 17:20:50 IST 2015.
 `X-RateLimit-Limit` mentions that the hourly limit is 60, out of which 45 have been used (as shown by `X-RateLimit-Remaining`). The limit
 would reset to 60 at Nov 24 17:58:34 IST 2015 as mentioned by `X-RateLimit-Reset`, which is depicted in seconds since UNIX epoch.
