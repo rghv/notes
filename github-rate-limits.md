@@ -6,10 +6,10 @@ GitHub implements a very easy to understand and easy to use rate limiting system
 
 * By default, anybody can reach GitHub's API end points, authenticated or otherwise
 * GitHub limits all unauthenticated requests originating from an IP address (typically to 60 requests per hour)
-* Every response sent out by GitHub APIs will have three elements in response headers, namely – X-RateLimit-Limit, X-RateLimit-Remaining and X-RateLimit-Reset
-    * X-RateLimit-Limit – what is the total limit for unit period in time, which in Github's case is 60 minutes
-    * X-RateLimit-Reset - when would GitHub reset the limit, represented as UNIX timestamp of seconds since epoch
-    * X-RateLimit-Remaining - how many requests can one fire till the limit reset time
+* Every response sent out by GitHub APIs will have three elements in response headers, namely – `X-RateLimit-Limit`, `X-RateLimit-Remaining` and `X-RateLimit-Reset`
+    * `X-RateLimit-Limit` – what is the total limit for unit period in time, which in Github's case is 60 minutes
+    * `X-RateLimit-Reset` - when would GitHub reset the limit, represented as UNIX timestamp of seconds since epoch
+    * `X-RateLimit-Remaining` - how many requests can one fire till the limit reset time
 * GitHub limits all authenticated requests from an authenticated user (typically to 5000 requests per hour)
 
 Example. An unauthenticated request to GitHub API end point gives the response header as shown below.
