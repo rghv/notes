@@ -1,6 +1,6 @@
 API rate limits
 ----------------
-Use case – GitHub's(https://github.com) [API access rate limiting mechanism](https://developer.github.com/v3/#rate-limiting)
+Use case – [API access rate limiting mechanism](https://developer.github.com/v3/#rate-limiting) at [GitHub](https://github.com)
 
 GitHub implements a very easy to understand and easy to use rate limiting system.
 
